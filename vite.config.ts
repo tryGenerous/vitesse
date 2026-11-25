@@ -19,6 +19,11 @@ import VueRouter from 'vue-router/vite'
 import 'vitest/config'
 
 export default defineConfig({
+  server: {
+    // '.generousdev.app' matches generousdev.app and all of its subdomains
+    allowedHosts: ['.generousdev.app'],
+  },
+
   resolve: {
     alias: {
       '~/': `${path.resolve(import.meta.dirname, 'src')}/`,

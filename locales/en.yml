@@ -11,4 +11,17 @@ intro:
   hi: Hi, {name}!
   aka: Also known as
   whats-your-name: What's your name?
+landing:
+  badge: Vite starter template
+  headline: Build something great, faster
+  hint: Enter your name to get started
+  feature1:
+    title: Blazing fast
+    desc: Instant dev server and optimized builds powered by Vite.
+  feature2:
+    title: Beautiful by default
+    desc: Utility-first styling with UnoCSS, icons, and dark mode out of the box.
+  feature3:
+    title: Ready for the world
+    desc: Multi-language support with lazy-loaded locales and SSG-friendly output.
 not-found: Not found
